@@ -1,0 +1,39 @@
+h3:first-child{
+    color: pink;
+}
+#greycol {
+color: gray;
+}
+div+div>p{
+    color: red;
+}
+div+h3+p{
+color: green;
+}
+.yellow {
+    color: yellow;
+}
+.item{
+    background-color: aquamarine;
+    border: color palevioletred;
+    width: 100px;
+    height: 100px;
+
+}
+.item:nth-child(3n) {
+    background-color: lightcoral
+}
+.item:last-child {
+    background-color: darkturquoise;
+}
+
+.item:first-child {
+    background-color: palevioletred;
+}
+.item:nth-child(even) {
+    background-color: crimson;
+}
+.item {
+    background-color: lime;
+}
+
